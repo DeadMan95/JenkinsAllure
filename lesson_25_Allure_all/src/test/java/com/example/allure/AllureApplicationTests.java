@@ -111,11 +111,11 @@ class AllureApplicationTests {
 
 	private static Stream<Arguments> providedStrings() {
 		return Stream.of(
-				Arguments.of("1", "George4", "Bluth"),
+				Arguments.of("1", "George", "Bluth"),
 				Arguments.of("2", "Janet", "Weaver"),
 				Arguments.of("7", "Michael", "Lawson"),
 				Arguments.of("10", "Byron", "Fields"),
-				Arguments.of("12", "Rachel", "Howell9")
+				Arguments.of("12", "Rachel", "Howell")
 		);
 	}
 	@ParameterizedTest

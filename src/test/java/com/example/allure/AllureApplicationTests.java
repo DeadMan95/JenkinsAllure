@@ -113,9 +113,16 @@ class AllureApplicationTests {
 		return Stream.of(
 				Arguments.of("1", "George", "Bluth"),
 				Arguments.of("2", "Janet", "Weaver"),
-				Arguments.of("7", "Michael", "Lawson"),
+				Arguments.of("3","Emma", "Wong"),
+				Arguments.of("4","Eve", "Holt"),
+				Arguments.of("5","Charles", "Morris"),
+				Arguments.of("6","Tracey", "Ramos"),
+				Arguments.of("7","Michael", "Lawson"),
+				Arguments.of("8","Lindsay", "Ferguson"),
+				Arguments.of("9","Tobias", "Funke"),
 				Arguments.of("10", "Byron", "Fields"),
-				Arguments.of("12", "Rachel", "Howell")
+				Arguments.of("11","George", "Edwards"),
+				Arguments.of("12","Rachel", "Howell")
 		);
 	}
 	@ParameterizedTest

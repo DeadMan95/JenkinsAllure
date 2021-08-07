@@ -23,7 +23,7 @@ class AllureApplicationTests {
 	@BeforeAll
 	public static void setUpMockServer() {
 		wireMockServer.start();
-		//test0003
+		//test0004
 		WireMock.configureFor("localhost", 5050);
 		WireMock.stubFor(WireMock.get(WireMock.urlEqualTo("/api/users/2"))
 				.willReturn(WireMock.aResponse()
